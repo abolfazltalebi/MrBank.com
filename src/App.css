@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 @import "tailwindcss";
 @layer base {
   :root {
@@ -10,7 +11,7 @@
     --color-background-default: #ffffff;
     --color-background-muted: #f8f8f8;
     --color-background-secondary: #1a191e;
-    --color-background-primary: #645eb4;
+    --color-background-primary: #433bb3;
     --color-background-primary-light: #e8f2ee;
 
     --color-border-default: #e8e8e8;
@@ -39,6 +40,10 @@
     --rounded-8: 0.473rem;
     --rounded-9: 0.5rem;
     --rounded-10: 0.504rem;
+  }
+  html,
+  body {
+    font-family: "DM Sans", serif;
   }
 }
 

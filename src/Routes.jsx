@@ -3,6 +3,7 @@
 
 import Home from "./components/Home/Home";
 import Layout from "./components/Layout/Layout";
+import NotFound from "./components/NotFound";
 import { createBrowserRouter } from "react-router-dom";
 
 // import Layout from "./components/Layout/Layout";
@@ -18,7 +19,7 @@ const router = createBrowserRouter([
       //   { path: "/aboutMe", element: <AboutMe /> },
       //   { path: "/ContactMe", element: <ContactMe /> },
       //   { path: "/weblogs", element: <Weblogs /> },
-      //   { path: "*", element: <NotFound /> },
+        { path: "*", element: <NotFound /> },
     ],
   },
 ]);
