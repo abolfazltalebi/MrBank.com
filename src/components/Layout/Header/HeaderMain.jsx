@@ -26,7 +26,9 @@ export default function HeaderMain() {
             );
           })}
         </ul>
-        <ButtonHeader />
+        <div>
+          <ButtonHeader />
+        </div>
       </div>
     </>
   );
