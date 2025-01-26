@@ -3,7 +3,7 @@ import heroSection from "../../assets/images/heroSection.webp";
 
 export default function HeroSection() {
   return (
-    <section className=" flex gap-4 items-center justify-between">
+    <section className="px-12 sm:px-32 flex gap-4 items-center justify-between">
       <div className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-4xl md:text-6xl font-bold">
           MrBank <br />
