@@ -1,13 +1,11 @@
-import heroSection from '../../assets/images/heroSection.webp'
+import AppServiceSection from "./AppServiceSection";
+import HeroSection from "./HeroSection";
 
 export default function Home() {
-  return (
+  return ( 
     <>
-      <section className="container grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
-        <div>
-          <img src={heroSection} className='h-[450px]' alt="" />
-        </div>
-      </section>
+      <HeroSection />
+      <AppServiceSection />
     </>
   );
 }
