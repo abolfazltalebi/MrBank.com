@@ -26,11 +26,11 @@ export default function SendReceiveSection() {
             </div>
           </div>
         </div>
-        <div className="space-y-4 h-[500px]">
+        <div className="space-y-4 h-[500px] overflow-y-hidden">
           {CompanyItem.map((Citem) => {
             return (
               <div
-                className="bg-white p-3 rounded-2xl flex items-center justify-between transition-all duration-300 hover:scale-105"
+                className="bg-white p-3 rounded-2xl flex items-center justify-between transition-all duration-300 hover:scale-95"
                 key={Citem.id}
               >
                 <div className="flex items-center gap-2">
