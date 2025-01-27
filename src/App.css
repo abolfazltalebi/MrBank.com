@@ -9,13 +9,13 @@
     /* Colors */
     --color-text-default: #1a191e;
     --color-text-muted: #1a191e;
-    --color-text-primary: #433bb3;
+    --color-text-primary: #6E2BE2;
     --color-text-inverse: #ffffff;
 
     --color-background-default: #ffffff;
     --color-background-muted: #f8f8f8;
     --color-background-secondary: #1a191e;
-    --color-background-primary: #433bb3;
+    --color-background-primary: #6E2BE2;
     --color-background-primary-light: #e8f2ee;
 
     --color-border-default: #e8e8e8;
