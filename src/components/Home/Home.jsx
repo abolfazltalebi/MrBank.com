@@ -2,6 +2,7 @@ import AppServiceSection from "./AppServiceSection";
 import CardShowcase from "./CardShowcase";
 import DownloadSection from "./DownloadSection";
 import HeroSection from "./HeroSection";
+import NeedHelpSection from "./NeedHelpSection";
 import SavingAccountsSection from "./SavingAccountsSection";
 import SendReceiveSection from "./SendReceiveSection";
 import TestimonialsSection from "./TestimonialsSection";
@@ -16,7 +17,8 @@ export default function Home() {
       <ToolsSection />
       <CardShowcase />
       <TestimonialsSection />
-      <DownloadSection/>
+      <DownloadSection />
+      <NeedHelpSection />
     </>
   );
 }
